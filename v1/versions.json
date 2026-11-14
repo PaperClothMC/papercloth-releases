@@ -8,6 +8,72 @@
   ],
   "versions": [
     {
+      "version": "0.168.2",
+      "minecraft": "26.3",
+      "stable": true,
+      "java": 25,
+      "mainClass": "net.fabricmc.loader.impl.launch.server.FabricServerLauncher",
+      "launchMainClass": "net.fabricmc.loader.impl.launch.knot.KnotServer",
+      "files": [
+        {
+          "path": "libraries/papercloth-loader-0.20.1.jar",
+          "url": "https://github.com/PaperClothMC/papercloth-releases/releases/download/0.168.2/papercloth-loader-0.20.1.jar",
+          "sha256": "045d90089f3102c0a50dd32dfae0d9862f04e7da80c54185209e28eb8404f8f3",
+          "size": 1894890,
+          "classpath": true
+        },
+        {
+          "path": "libraries/asm-9.10.1.jar",
+          "url": "https://maven.fabricmc.net/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
+          "sha256": "ed825d10ab1399c8c0cb669e688cf0c8c82629b4c8399b58352b68e92ca10fcb",
+          "size": 126151,
+          "classpath": true
+        },
+        {
+          "path": "libraries/asm-analysis-9.10.1.jar",
+          "url": "https://maven.fabricmc.net/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
+          "sha256": "dede75a21306b65974ecd8f87114ff6970f09fb794157a4ca09ab25c888c2bfc",
+          "size": 35140,
+          "classpath": true
+        },
+        {
+          "path": "libraries/asm-commons-9.10.1.jar",
+          "url": "https://maven.fabricmc.net/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
+          "sha256": "6d0abefb7cbf972ea16edb37ec14835372505063a45f976ab7ea889ed9497895",
+          "size": 74840,
+          "classpath": true
+        },
+        {
+          "path": "libraries/asm-tree-9.10.1.jar",
+          "url": "https://maven.fabricmc.net/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
+          "sha256": "3dfb0d5b6a106cd40b5b250e39935fbf2f927f4477546a5369a3ac609cf0506b",
+          "size": 51958,
+          "classpath": true
+        },
+        {
+          "path": "libraries/asm-util-9.10.1.jar",
+          "url": "https://maven.fabricmc.net/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
+          "sha256": "1bb99d091fba2597dc6d51193e9bbcf0d8447e7ed96bd8f0198b18152f09655c",
+          "size": 95628,
+          "classpath": true
+        },
+        {
+          "path": "libraries/sponge-mixin-0.17.5+mixin.0.8.7.jar",
+          "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.17.5+mixin.0.8.7/sponge-mixin-0.17.5+mixin.0.8.7.jar",
+          "sha256": "03f0065023bfc3045d71bfb99872451d9ad5a0800a5a0dac34ab8c7d5c134f5d",
+          "size": 1551593,
+          "classpath": true
+        },
+        {
+          "path": "mods/papercloth-api-0.168.2.jar",
+          "url": "https://github.com/PaperClothMC/papercloth-releases/releases/download/0.168.2/papercloth-api-0.168.2.jar",
+          "sha256": "7ab4c2ff13ed3fa1835071787892cb111a0d9edc93de4b30f3aab0f0ff3b36ba",
+          "size": 36079849,
+          "classpath": false
+        }
+      ]
+    },
+    {
       "version": "0.168.1",
       "minecraft": "26.3",
       "stable": true,
