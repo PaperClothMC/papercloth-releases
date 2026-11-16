@@ -19,7 +19,7 @@
       "version": "0.169.1+1.21.1",
       "minecraft": "1.21.1",
       "stable": true,
-      "java": 25,
+      "java": 21,
       "mainClass": "net.fabricmc.loader.impl.launch.server.FabricServerLauncher",
       "launchMainClass": "net.fabricmc.loader.impl.launch.knot.KnotServer",
       "files": [
